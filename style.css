@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Amiri', serif;
+	color: #000;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background-color: #d2c798;
+}
+
+nav{
+	background-color: #fff;
+}
+
+.logo-container{
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+  padding-inline:300px;
+	border: 2px solid #d2c798;
+}
+
+.logo-img > img{
+	width:6rem;
+	height:7rem;
+}
+
+.nav-links{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	gap: 50px;
+
+}
+
+.nav-links > li{
+	border:2px solid #d2c798;
+  padding-inline:13px;
+	border-radius: 13px;
+}
+
+.nav-links > li:hover{
+	background-color: #d2c798;
+	color:#fff;
+}
+
+.icon{
+width: 1rem;
+}
+
+.icon:hover{
+	width:1.5rem;
+}
+
+.account-container{
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.vertical-line{
+	border-left:2px solid black;
+	height:25px;
+	padding-right:30px;
+}
+
+.page-links{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:20px 300px;
+}
+
+.link:hover{
+	border-bottom: 2px solid #d2c798;
+}
