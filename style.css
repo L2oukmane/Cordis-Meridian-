@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Amiri', serif;
+	color: #000;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background-color: #FFC0CB;
+}
+
+nav{
+	background-color: rgba(255, 255, 255, 0.803);
+}
+
+.logo-container{
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+  padding-inline:300px;
+	border-bottom: 2px solid #FFC0CB;
+}
+
+.logo-img > img{
+	width:6rem;
+	height:7rem;
+	animation: rotate 2s  linear;
+}
+
+.logo-img > img:hover{
+	transform: rotate(40deg);
+}
+
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.nav-links{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	gap: 50px;
+
+}
+
+.nav-links > li{
+	border:2px solid #FFC0CB;
+  padding-inline:13px;
+	border-radius: 13px;
+}
+
+.nav-links > li:hover{
+	background-color:  #347450;
+	border: 2px solid #347450;
+	color:#fff;
+}
+
+.nav-link1:active{
+	opacity: 0.2;
+}
+
+.nav-link2:active{
+	opacity: 0.2;
+}
+
+.nav-link3:active{
+	opacity: 0.2;
+}
+
+.icon{
+width: 1rem;
+}
+
+.icon:hover{
+	width:1.5rem;
+}
+
+.icon:active{
+	transform: rotate(280deg);
+}
+
+.account-container{
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.vertical-line{
+	border-left:2px solid black;
+	height:25px;
+	padding-right:30px;
+}
+
+.page-links{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:20px 300px;
+}
+
+.link:hover{
+	border-bottom: 2px solid  #347450;
+}
+
+.link:active{
+font-weight: 900;
+font-size: 18px;
+}
+
+/*Product section*/
+
+.product-section{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	padding-inline: 300px;
+	border: 2px solid #FFC0CB;
+}
+
+.product-description{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items:center;
+	padding-inline: 300px;
+	background-color:rgba(255, 255, 255, 0.803) ;
+	padding-top:4rem;
+}
+
+.description{
+	width:100%;
+	display: flex;
+}
+
+.image-container{
+	align-self: flex-start;
+	padding-right: 100px;
+}
+
+.product-img{
+left: 2rem;
+}
