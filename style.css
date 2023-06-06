@@ -1,12 +1,13 @@
-@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
 *{
 	padding: 0;
 	margin: 0;
 	list-style: none;
 	box-sizing: border-box;
 	text-decoration: none;
-	font-family: 'Amiri', serif;
+	font-family: 'Almarai', sans-serif;
 	color: #000;
+	text-align: right;
 }
 
 a{
@@ -19,6 +20,14 @@ body{
 
 nav{
 	background-color: rgba(255, 255, 255, 0.803);
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.checked{
+	width:1rem;
 }
 
 .logo-container{
@@ -67,7 +76,17 @@ nav{
 .nav-links > li:hover{
 	background-color:  #347450;
 	border: 2px solid #347450;
-	color:#fff;
+}
+
+.nav-link1:hover{
+	color:white;
+}
+.nav-link2:hover{
+	color:white;
+}
+
+.nav-link3:hover{
+	color:white;
 }
 
 .nav-link1:active{
@@ -113,8 +132,13 @@ width: 1rem;
 	padding:20px 300px;
 }
 
+.link{
+	padding-bottom:7px;
+}
+
 .link:hover{
 	border-bottom: 2px solid  #347450;
+	border-radius: 20px;
 }
 
 .link:active{
@@ -124,34 +148,24 @@ font-size: 18px;
 
 /*Product section*/
 
-.product-section{
-	display:flex;
-	align-items: center;
-	justify-content: center;
-	padding-inline: 300px;
-	border: 2px solid #FFC0CB;
-}
-
-.product-description{
-	display: flex;
-	flex-direction: row;
-	justify-content:space-between;
-	align-items:center;
-	padding-inline: 300px;
-	background-color:rgba(255, 255, 255, 0.803) ;
-	padding-top:4rem;
-}
-
 .description{
-	width:100%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top:5px;
+}
+
+.product-intro{
 	display: flex;
+	flex-direction: column;
+	align-self: center;
+	background-color: rgba(255, 255, 255, 0.803);
+	padding:20px 40px;
+	width:65%;
+	gap:40px;
 }
 
-.image-container{
-	align-self: flex-start;
-	padding-right: 100px;
-}
 
-.product-img{
-left: 2rem;
-}
+
+
+
