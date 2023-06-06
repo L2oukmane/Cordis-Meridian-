@@ -18,6 +18,12 @@ body{
 	background-color: #FFC0CB;
 }
 
+.body-container{
+	display:flex;
+	padding-top:15px;
+	justify-content: center;
+}
+
 nav{
 	background-color: rgba(255, 255, 255, 0.803);
 }
@@ -153,26 +159,33 @@ font-size: 18px;
 	flex-direction: column;
 	align-items: center;
 	padding-top:5px;
+	background-color: rgba(255, 255, 255, 0.803);
+	width:65%;
+	padding:20px 40px;
+	align-self: center;
+	margin-right:190px;
 }
 
 .product-intro{
 	display: flex;
 	flex-direction: column;
-	align-self: center;
-	background-color: rgba(255, 255, 255, 0.803);
-	padding:20px 40px;
-	width:65%;
+
+	
+
+
 	gap:40px;
 }
 
 .amir-img{
 	width:70%;
 	align-self: center;
+	border-radius: 20px;
 }
 
 .cordis-img{
 	align-self: center;
 	width:60%;	
+	border-radius: 20px;
 }
 
 h1{
@@ -188,6 +201,40 @@ h1{
 
 .show{
  opacity:1;
+}
+
+footer{
+	padding-top: 13px;
+	background-color: #FFC0CB;
+}
+
+.copyrights{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 20px;
+	background-color:rgba(255, 255, 255, 0.803);
+	gap:30px;
+}
+
+/*questions*/
+.questions{
+	position: fixed;
+	right:0;
+ height:20vh;
+ align-items: center;
+}
+
+.questions > ul{
+	padding: 20px;
+	border:3px solid  rgba(255, 255, 255, 0.803);
+	background-color: rgba(255, 255, 255, 0.803);
+}
+
+.questions > ul > li:hover{
+	cursor: pointer;
+	border-bottom: 2px solid  #347450;
+	border-radius: 15px;
 }
 
 
