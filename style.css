@@ -312,6 +312,7 @@ footer{
 .mobile-menu{
 	position: fixed;
 	width:100%;
+	top:10;
 	background-color:#FFC0CB;
 	border:2px solid white;
 	display: flex;
