@@ -1,6 +1,6 @@
 > This is a complete version of the Cordis Meridian.
 
-My goal here is to Build Landing page for Cordis Meridian from scratch, take a look at what i'v built [Live Demo](). 🙂
+My goal here is to Build Landing page for Cordis Meridian from scratch, take a look at what i'v built [Live Demo](https://l2oukmane.github.io/Cordis-Meridian-/). 🙂
 
 ## Built With
 
