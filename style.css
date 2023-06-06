@@ -30,10 +30,12 @@ nav{
 
 .bold{
 	font-weight: bold;
+	align-self: center;
 }
 
 .checked{
 	width:1rem;
+	padding-left:7px;
 }
 
 .logo-container{
@@ -237,7 +239,97 @@ footer{
 	border-radius: 15px;
 }
 
+.menu-open{
+	display:none;
+}
+
+.menu-closed{
+	display:none;
+}
 
 
+/*Mobile version*/
 
+@media screen and (max-width: 769px) {
+ .logo-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-inline:0;
+	gap:17%;
+ }
 
+ .menu-open{
+	display:flex;
+	animation: none;
+ }
+
+ .menu-closed{
+	display:none;
+	animation: none;
+ }
+  
+ .description{
+	margin:0;
+	width:85%;
+	padding:15px 20px;
+ }
+
+ .product-intro > h1{
+	line-height: 2rem;
+ }
+
+ p{
+	padding-bottom:30px;
+ }
+
+ .amir-img{
+	width:95%;	
+ }
+
+.nav-links{
+  display:none;
+}
+
+.logo-img >img{
+	width:4rem;
+	height:5rem;
+	align-self: right;
+}
+
+.account-container{
+	gap:10px;
+}
+
+.vertical-line {
+  padding-right: 10px;
+}
+
+.page-links{
+	display:none;
+}
+
+.mobile-menu{
+	position: fixed;
+	width:100%;
+	top:10;
+	background-color:#FFC0CB;
+	border:2px solid white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding:0;
+	height: 50vh;
+	animation: none;
+}
+
+.questions{
+	display:none;
+}
+
+.cordis-img{
+	width:85%;
+}
+
+}
