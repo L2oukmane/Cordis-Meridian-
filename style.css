@@ -7,7 +7,7 @@
 	text-decoration: none;
 	font-family: 'Almarai', sans-serif;
 	color: #000;
-	text-align: right;
+	line-height:2rem;
 }
 
 a{
@@ -133,12 +133,12 @@ width: 1rem;
 }
 
 .link{
-	padding-bottom:7px;
+	padding-bottom:2px;
 }
 
 .link:hover{
 	border-bottom: 2px solid  #347450;
-	border-radius: 20px;
+	border-radius: 15px;
 }
 
 .link:active{
@@ -163,6 +163,31 @@ font-size: 18px;
 	padding:20px 40px;
 	width:65%;
 	gap:40px;
+}
+
+.amir-img{
+	width:70%;
+	align-self: center;
+}
+
+.cordis-img{
+	align-self: center;
+	width:60%;	
+}
+
+h1{
+	width:90%;
+	line-height: 3rem;
+	align-self: center;
+}
+
+.hiden{
+ opacity:0;
+ transition: all 2s;
+}
+
+.show{
+ opacity:1;
 }
 
 

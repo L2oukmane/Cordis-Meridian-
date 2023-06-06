@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl" lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +11,8 @@
 <body>
 	<header>
 		<nav>
-			<div class="logo-container">
-				<a class="logo-img" href="#"><img  src="/imgs/logo.png" alt="logo"></a>
+			<div class="logo-container hiden">
+				<a onClick="window.location.reload();" class="logo-img" href="#"><img  src="/imgs/logo.png" alt="logo"></a>
 				<ul class="nav-links">
 					<li><a onClick="window.location.reload();" class="nav-link1" href="#">رسائل القراء</a></li>
 					<li><a onClick="window.location.reload();" class="nav-link2" href="#">الاخبار</a></li>
@@ -26,7 +26,7 @@
 					<a href="#"><img class="icon" src="/imgs/account.svg" alt="account-icon"></a>
 				</div>
 			</div>
-			<div class="page-links">
+			<div class="page-links hiden">
 				<a onClick="window.location.reload();" class="link" href="#">نصائح للقارئين</a>
 				<a onClick="window.location.reload();" class="link" href="#">اغذية صحية </a>
 				<a onClick="window.location.reload();" class="link" href="#">صحة الاطفال</a>
@@ -38,10 +38,10 @@
 			</div>
 		</nav>
 	</header>
-	<section class="description">
+	<section class="description hiden">
 		<div class="product-intro">
-			<h1>بدأت أشعر بالشباب بعد اكتشاف منظف الوريد العشبي ، وأصبح رأسي يعمل مثل 35 عامًا وتحسن ضغط الدم.</h1>
-			<img src="/imgs/amir.jpg" alt="amir-picture">
+			<h1 class="bold"> " بدأت أشعر بالشباب بعد اكتشاف منظف الوريد العشبي ، وأصبح رأسي يعمل مثل 35 عامًا وتحسن ضغط الدم ." </h1>
+			<img class="amir-img hiden" src="/imgs/amir.jpg" alt="amir-picture">
 			<p>لقد كنت أتعامل مع التربة طوال حياتي. تم قضاء كل يوم في الزراعة ، مثل زراعة البذور والحصاد. لم أشتكي أبدًا من صحتي لأنني لم أعاني من أي أمراض. ما دمت أتذكر نفسي ، فقد كنت شخصًا قويًا وقويًا.
 				 لا أتذكر حتى إصابتي بنزلة برد.
 				  لكن هذا الوضع تغير بعد سن الأربعين
@@ -149,7 +149,7 @@
 				 أو سكتة دماغية. 
 				</p>
 				<h3 class="bold"> لارتفاع ضغط الدم Cordis Meridian   كبسولات</h3>
-				<img src="/imgs/cordis.jpg" alt="">
+				<img class="cordis-img hiden" src="/imgs/cordis.jpg" alt="">
 				<p>افتح عالم قلب صحي مع كبسولات كورديس ميريديان   لارتفاع ضغط الدم! اشترِ المنتج بأفضل سعر من الشركة المصنعة
 					 في ألاتير، مع تقييمات حقيقية موثوقة 
 					وضمان الجودة. اكتشف سعره على الموقع
@@ -173,10 +173,10 @@
 				</p>
 				<h3 class="bold">العمل والمكونات الرئيسية لكورديس ميريديان</h3>
 				<ul>
-					<li>رأى الكورسيكان - يساعد على خفض ضغط الدم داخل الجمجمة والانبساطي. <img class="checked" src="/imgs/check.png" alt="list"> </li>
-					<li>  أرونيا - يحسن حالة الأوعية الدموية ، ويطبيع وظيفة القلب والدورة الدموية. <img class="checked" src="/imgs/check.png" alt="list"> </li>
-					<li>  عرق السوس - ينشط عمليات التمثيل الغذائي في الجسم ويعيد مرونة الأوعية الدموية. <img class="checked" src="/imgs/check.png" alt="list"></li>
-					<li> الرعي الأسود- يساهم في تنظيم ضغط الدم له تأثير إيجابي على الكوليسترول الكلي.  <img class="checked" src="/imgs/check.png" alt="list"></li>
+					<li> <img class="checked" src="/imgs/check.png" alt="list"> رأى الكورسيكان - يساعد على خفض ضغط الدم داخل الجمجمة والانبساطي.  </li>
+					<li> <img class="checked" src="/imgs/check.png" alt="list"> أرونيا - يحسن حالة الأوعية الدموية ، ويطبيع وظيفة القلب والدورة الدموية.  </li>
+					<li> <img class="checked" src="/imgs/check.png" alt="list"> عرق السوس - ينشط عمليات التمثيل الغذائي في الجسم ويعيد مرونة الأوعية الدموية.</li>
+					<li><img class="checked" src="/imgs/check.png" alt="list"> الرعي الأسود- يساهم في تنظيم ضغط الدم له تأثير إيجابي على الكوليسترول الكلي. </li>
 				</ul>
 				<p>تتجلى نتائج استخدام  كورديس ميريديان في استقرار ضغط الدم 
 					، وتقليل احتمالية حدوث مضاعفات وتحسين الحالة العامة للمريض.
@@ -190,8 +190,22 @@
 					<li> القدرة على استخدامها كأداة مستقلة وفي العلاج المعقد. <img class="checked" src="/imgs/check.png" alt="list"> </li>
 					<li> تأثير طويل المدى يسمح لك بالحفاظ على الحالة المثلى لنظام القلب والأوعية الدموية. <img class="checked" src="/imgs/check.png" alt="list"> </li>
 				</ul>
-			
+			<h3 class="bold">كيفية استخدام كورديس ميريديان؟</h3>
+			<p> :تطبيق كورديس ميريديان  بسيط للغاية ومريح. يوصى بالخطوات التالية </p>
+			<ul>
+				<li>تناول الدواء يوميا كبسولة واحدة مرتين في اليوم.<img class="checked" src="/imgs/check.png" alt="list"></li>
+				<li>خذ الكبسولة مع وجبات الطعام مع الكثير من الماء.<img class="checked" src="/imgs/check.png" alt="list"></li>
+				<li>اتبع نظامًا غذائيًا صحيًا ومتوازنًا واتبع أسلوب حياة صحي<img class="checked" src="/imgs/check.png" alt="list"></li>
+				<li>تتراوح مدة دورة العلاج من 3 إلى 6 أشهر ، حسب الخصائص الفردية للمريض.<img class="checked" src="/imgs/check.png" alt="list"></li>
+			</ul>
+			<p>سيساعد استخدام كبسولات كورديس ميريديان على النحو الموصى به في تحقيق أفضل تأثير في مكافحة ارتفاع ضغط الدم وعواقبه.</p>
+			<h3 class="bold">خاتمة</h3>
+		<p>كبسولات  كورديس ميريديان هي وسيلة حديثة وآمنة للتحكم في ضغط الدم والوقاية من أمراض القلب والأوعية الدموية. 
+			بفضل مزيجها الفريد من المكونات الطبيعية ، فإنها توفر
+			 حماية فعالة وطويلة الأمد ضد ارتفاع ضغط الدم ومضاعفاته. كن مطمئنًا
+			 ، مع كبسولات كورديس ميريديان ستكون صحتك في أيد أمينة!</p>
 		</div>
+
 	</section>
 
 	<script src="script.js"></script>
