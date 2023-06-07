@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300;400;500;600;700&display=swap');
 *{
 	padding: 0;
 	margin: 0;
@@ -54,6 +55,10 @@ nav{
 
 .logo-img > img:hover{
 	transform: rotate(40deg);
+}
+
+.dialect{
+	font-family: 'Marhey', cursive;
 }
 
 
@@ -171,10 +176,6 @@ font-size: 18px;
 .product-intro{
 	display: flex;
 	flex-direction: column;
-
-	
-
-
 	gap:40px;
 }
 
@@ -219,6 +220,27 @@ footer{
 	gap:30px;
 }
 
+.pricing{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap:20px;
+	border: 2px solid #000000;
+	padding: 10px 20px;
+	background-color: #000000;
+	width: 50%;
+	align-self: center;
+	border-radius:10px;
+}
+
+.pricing > span{
+	color: #fff;
+}
+
+.price-description{
+	color: #fff;
+}
+
 /*questions*/
 .questions{
 	position: fixed;
@@ -246,6 +268,73 @@ footer{
 .menu-closed{
 	display:none;
 }
+
+.contactForm{
+	display:flex;
+	flex-direction:column;
+	align-self: center;
+	width:40%;
+}
+
+.inputTel{
+	text-align:right;
+}
+
+input , textarea{
+	padding:7px 20px;
+	border: 1px solid #347450;
+	border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus{
+	outline: none;
+}
+
+.contact-btn{
+	padding-top:40px;
+	padding-bottom: 20px;
+	align-self: center;
+}
+
+.contact-btn > a{
+	padding:20px 40px;
+	border:none;
+	background-color: #347450;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.contact-btn > a:hover{
+	cursor: pointer;
+	opacity:0.5;
+}
+
+.contact-btn > a:active{
+	opacity:1;
+}
+
+.price{
+	align-self: center;
+	border: 2px solid yellowgreen;
+	padding:5px 10px;
+  border-radius: 13px;
+	box-shadow: 4px 4px black;
+	font-size: 20px;
+}
+
+.price-discount{
+	align-self: center;
+	border: 2px solid rgb(205, 66, 50);
+	padding:5px 10px;
+	border-radius: 13px;
+	box-shadow: 4px 4px black;
+	text-decoration: line-through;
+}
+
 
 
 /*Mobile version*/
@@ -330,6 +419,25 @@ footer{
 
 .cordis-img{
 	width:85%;
+}
+
+.contactForm{
+display: flex;
+width:60%;
+}
+
+input {
+	padding:10px 15px;
+
+}
+
+.contact-btn > a{
+	padding:10px 15px;
+	font-size: 10px;
+}
+
+.pricing{
+	width:100%;
 }
 
 }
