@@ -247,6 +247,62 @@ footer{
 	display:none;
 }
 
+.contactForm{
+	display:flex;
+	flex-direction:column;
+	align-self: center;
+	width:40%;
+}
+
+.inputTel{
+	text-align:right;
+}
+
+input , textarea{
+	padding:7px 20px;
+	border: 1px solid #347450;
+	border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus{
+	outline: none;
+}
+
+.contact-btn{
+	padding-top:40px;
+	padding-bottom: 20px;
+	align-self: center;
+}
+
+.contact-btn > a{
+	padding:20px 40px;
+	border:none;
+	background-color: #347450;
+	color: #fff;
+	border-radius: 16px;
+}
+
+.contact-btn > a:hover{
+	cursor: pointer;
+	opacity:0.5;
+}
+
+.contact-btn > a:active{
+	opacity:1;
+}
+
+.price{
+	align-self: center;
+	border: 2px solid yellowgreen;
+	padding:5px 10px;
+	background-color:yellowgreen;
+	box-shadow: 4px 4px black;
+}
+
 
 /*Mobile version*/
 
@@ -330,6 +386,21 @@ footer{
 
 .cordis-img{
 	width:85%;
+}
+
+.contactForm{
+display: flex;
+width:60%;
+}
+
+input {
+	padding:10px 15px;
+
+}
+
+.contact-btn > a{
+	padding:10px 15px;
+	font-size: 10px;
 }
 
 }
